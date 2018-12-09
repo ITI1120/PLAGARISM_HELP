@@ -22,22 +22,24 @@ Defining variables with excessive steps. Ie:
 replace:
 
 for i in range(len(x)):
-  pass
-
+  
 with:
 
 p = int(len(x))
+
 for i in range(p):
-  pass
+
 
 Changing == to "is" and != to "is not":
 
 if x == 10 and y != 9:
-  pass
+
   
 with:
 
 p = str(x)
+
 j = str(y)
+
 if p is "10" and j is not "9":
-  pass
+
