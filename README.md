@@ -53,11 +53,11 @@ def how_2_pass(x):
 
   if some code:
     
-    some other code
+  some other code
    
    else some code:
       
-      some other code
+   some other code
 
 Replace with:
 
@@ -73,9 +73,9 @@ def how_to_pass(x):
 
   if some code:
     
-    some_function(p)
+  some_function(p)
    
    else some code:
-    
-    some_other_function(o)
+   
+  some_other_function(o)
     
