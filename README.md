@@ -14,3 +14,30 @@ Methods that will not work:
 Linting, will not alter the structure, just the variables and shape
 
 Swapping function location, this will fail every time and will cause the TA to check closer for plagarism. It is a well known tactic to use.
+
+Methods that DO work:
+
+Defining variables with excessive steps. Ie: 
+
+replace:
+
+for i in range(len(x)):
+  pass
+
+with:
+
+p = int(len(x))
+for i in range(p):
+  pass
+
+Changing == to "is" and != to "is not":
+
+if x == 10 and y != 9:
+  pass
+  
+with:
+
+p = str(x)
+j = str(y)
+if p is "10" and j is not "9":
+  pass
