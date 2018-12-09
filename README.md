@@ -51,11 +51,11 @@ Example:
 
 def how_2_pass(x):
 
-  if <some code>:
+  if some code:
     
     some other code
    
-   else <some code>:
+   else some code:
       
       some other code
 
@@ -63,19 +63,19 @@ Replace with:
 
 def some_function(p):
 
-  <some code>
+  some code
  
 def some_other_function(o):
   
-  <some other code>
+  some other code
   
 def how_to_pass(x):
 
-  if <some code>:
+  if some code:
     
     some_function(p)
    
-   else <some code>:
+   else some code:
     
     some_other_function(o)
     
