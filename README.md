@@ -43,3 +43,39 @@ j = str(y)
 
 if p is "10" and j is not "9":
 
+Function fragnentation:
+
+Replacing one large function with multiple smaller ones is a good method and renders identification almost impossible. Use of this method will result in the code similarity dropping ~10% per modified function on average. NOTE: DO NOT USE WHEN FUNCTIONS ARE PROVIDED FOR YOU.
+
+Example:
+
+def how_2_pass(x):
+
+  if <some code>:
+    
+    some other code
+   
+   else <some code>:
+      
+      some other code
+
+Replace with:
+
+def some_function(p):
+
+  <some code>
+ 
+def some_other_function(o):
+  
+  <some other code>
+  
+def how_to_pass(x):
+
+  if <some code>:
+    
+    some_function(p)
+   
+   else <some code>:
+    
+    some_other_function(o)
+    
