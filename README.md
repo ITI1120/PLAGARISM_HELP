@@ -1,8 +1,8 @@
-# PLAGARISM_HELP
-Tools to help you cheat
+# I mean, of course you will copy these
 
 
-When cheating, ensure that your code is different enough from the ones I show here. The following tool:
+
+When not cheating, ensure that your code is different enough from the ones I show here. The following tool:
 
 https://pypi.org/project/pycode-similar/
 
